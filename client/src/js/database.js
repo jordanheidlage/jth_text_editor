@@ -33,7 +33,7 @@ console.log('data saved to database', result);
   return result;
 };
 
-// TODO: Add logic for a method that gets all the content from the database
+// DONE: Add logic for a method that gets all the content from the database
 export const getDb = async () => {
 console.log('Retrieving data from the DB', result);
   // Create a connection to the database database and version we want to use.
