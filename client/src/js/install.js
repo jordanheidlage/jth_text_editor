@@ -1,6 +1,6 @@
 const butInstall = document.getElementById('buttonInstall');
 
-// Logic for installing the PWA
+// Logic for installing PWA
 
 // Add an event handler to the `beforeinstallprompt` event
 
