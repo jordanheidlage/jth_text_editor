@@ -32,8 +32,8 @@ export const getDb = async () => {
   
     // Get confirmation of the request.
     const result = await request;
-    console.log('result.value', result);
-    return result;
+    console.log('result.value', result.value);
+    return result?.value;
   };
 
 // DONE: Add logic to a method that accepts some content and adds it to the database
@@ -53,8 +53,7 @@ console.log('data saved to database', result);
 
   // Get confirmation of the request.
   const result = await request;
-  console.log('result.value', result);
-  return result;
+  console.log('result.value', result.value);
 };
 
 
